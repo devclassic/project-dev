@@ -1,0 +1,10 @@
+[project]
+name = "dev-server"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dataset>=1.6.2",
+    "fastapi[standard]>=0.135.1",
+    "invoke>=2.2.1",
+]
