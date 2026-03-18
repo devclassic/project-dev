@@ -1,0 +1,42 @@
+/*公共样式*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*列表页公共样式*/
+
+.breadcrumb {
+  margin-top: 10px;
+}
+
+.toolbar {
+  margin-top: 10px;
+}
+
+.table {
+  margin-top: 10px;
+}
+
+.pager {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.form-item:last-child {
+  margin-bottom: 0;
+}
+
+.info-table {
+  font-size: 14px;
+  & tr td:first-child {
+    width: 100px;
+    font-weight: bold;
+    text-align: right;
+  }
+}
