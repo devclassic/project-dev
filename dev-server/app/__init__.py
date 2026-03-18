@@ -1,10 +1,13 @@
 import anyio
+import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from .middlewares.auth import AuthMiddleware
 from .api import router as api_router
+
+os.makedirs("public", exist_ok=True)
 
 
 @asynccontextmanager
