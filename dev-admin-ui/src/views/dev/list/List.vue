@@ -50,7 +50,7 @@
       @change="pageChange" />
   </div>
 
-  <el-dialog v-model="state.showSearch" title="数据检索" width="600" draggable>
+  <el-dialog v-model="state.showSearch" title="数据检索" width="600">
     <el-form label-width="auto">
       <el-form-item label="姓名" class="form-item">
         <el-input />
@@ -68,7 +68,7 @@
     </template>
   </el-dialog>
 
-  <el-dialog v-model="state.showEdit" :title="`${editType}数据`" width="600" draggable>
+  <el-dialog v-model="state.showEdit" :title="`${editType}数据`" width="600">
     <el-form label-width="auto">
       <el-form-item label="姓名" class="form-item">
         <el-input />
@@ -86,7 +86,7 @@
     </template>
   </el-dialog>
 
-  <el-dialog v-model="state.showInfo" title="数据详细" width="600" draggable>
+  <el-dialog v-model="state.showInfo" title="数据详细" width="600">
     <table class="info-table">
       <tbody>
         <tr>

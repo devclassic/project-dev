@@ -14,7 +14,6 @@
 <style scoped lang="scss">
   .layout {
     height: 100vh;
-    background-color: #f5f5f5;
     display: flex;
   }
 

@@ -1,3 +1,1 @@
-<template>
-  <el-button type="primary">Primary Button</el-button>
-</template>
+<template></template>
